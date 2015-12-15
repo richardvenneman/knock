@@ -10,6 +10,13 @@ gemspec
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
+gem 'rails', github: "rails/rails"
+gem 'sprockets-rails', github: "rails/sprockets-rails"
+gem 'sprockets', github: "rails/sprockets"
+gem 'sass-rails', github: "rails/sass-rails"
+gem 'arel', github: "rails/arel"
+gem 'rack', github: "rack/rack"
+
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 
